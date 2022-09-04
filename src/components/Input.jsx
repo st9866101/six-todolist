@@ -23,9 +23,9 @@ export default function Input({ todos, setTodos }) {
                 value={newTodo}
                 onChange={handlerNewTodo}
             />
-            <a href="/#" onClick={addTodo}>
-                <i className="fa fa-plus"></i>
-            </a>
+            <div className='c-pointer' onClick={addTodo}>
+                <i className="fa fa-plus" onClick={addTodo}></i>
+            </div>
         </div>
     )
 };

@@ -16,7 +16,6 @@ function App() {
     <div id="todoListPage" className="bg-half">
       <nav>
         <h1>
-          <a href="/#"> </a>
         </h1>
       </nav>
       <div className="conatiner todoListPage vhContainer">

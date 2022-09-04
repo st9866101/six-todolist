@@ -31,9 +31,9 @@ export default function Input({
                 />
                 <span>{item.todo}</span>
             </label>
-            <a href="/#" onClick={() => delTodo(item.id)}>
+            <div className='c-pointer' onClick={() => delTodo(item.id)}>
                 X
-            </a>
+            </div>
         </li>
     )
 };

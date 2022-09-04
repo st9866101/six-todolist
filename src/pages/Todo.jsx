@@ -51,9 +51,9 @@ export default function Todo() {
                 </ul>
                 <div className="todoList_statistics">
                     <p> {completedTodo} 個待完成項目</p>
-                    <a href="/#" onClick={clearCompletedTodo}>
+                    <div className='c-pointer clear-btn' onClick={clearCompletedTodo}>
                         清除已完成項目
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>

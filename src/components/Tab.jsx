@@ -11,7 +11,7 @@ export default function Input({ currentTab, setCurrentTab }) {
         setCurrentTab(type);
     };
     const ClassType = (type) => {
-        return currentTab === type ? "active" : "";
+        return currentTab === type ? "active c-pointer" : "c-pointer";
     };
 
     return (
@@ -19,13 +19,12 @@ export default function Input({ currentTab, setCurrentTab }) {
 
             {tabList.map((tab) => (
                 <li key={tab.type}>
-                    <a
-                        href="/#"
+                    <div
                         className={ClassType(tab.type)}
                         onClick={() => handlerTabType(tab.type)}
                     >
                         {tab.title}
-                    </a>
+                    </div>
                 </li>
             ))}
         </ul>
