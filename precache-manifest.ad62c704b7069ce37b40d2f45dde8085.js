@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0c3b246066e978d217f4",
-    "url": "/six-todolist/static/css/main.511074dd.chunk.css"
+    "revision": "41376d5ff0df8abdf113",
+    "url": "/six-todolist/static/css/main.7e2f7f57.chunk.css"
   },
   {
-    "revision": "0c3b246066e978d217f4",
-    "url": "/six-todolist/static/js/main.0c3b2460.chunk.js"
+    "revision": "41376d5ff0df8abdf113",
+    "url": "/six-todolist/static/js/main.41376d5f.chunk.js"
   },
   {
     "revision": "97af9aaba510c3e4c76e",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/six-todolist/static/js/runtime~main.a11a6564.js"
   },
   {
-    "revision": "987320be68cdd3c4136559546c445b2a",
+    "revision": "ad913b91832db7658045e0f304734c33",
     "url": "/six-todolist/index.html"
   }
 ];
